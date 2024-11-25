@@ -5,6 +5,68 @@ body {
 #scoreDiv {
   width: 30rem;
   height: 5rem;
-  border: 0.1rem solid white; /* This gives the effect of a white margin */
+  border: 0.1rem solid white;
   margin: 5rem;
+}
+
+#nextPage {
+  font-size: 7rem;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: grey;
+  border: transparent;
+  border-radius: 5%;
+  width: 7rem;
+  height: 1.4rem;
+  margin: 0.5rem;
+}
+
+#gameRules {
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  border: 0.4rem solid white;
+  border-radius: 1%;
+  background-color: darkgreen;
+  position: relative;
+  display: none;
+}
+
+#closeRules {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: red;
+  color: white;
+  border: 0.1rem solid white;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+
+#playerChoice {
+  color: white;
+}
+#computerChoice {
+  color: white;
+}
+#playerChoiceP {
+  color: white;
+}
+#computerChoiceP {
+  color: white;
+}
+#winRe {
+  color: white;
+}
+#loseRe {
+  color: white;
+}
+#tieRe {
+  color: white;
 }
