@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="scoreDiv" class="container">
+      <div class="section">
+        <span>Rock</span>
+        <span>Paper</span>
+        <span>Scissors</span>
+      </div>
+
+      <div class="section">
+        <span>Your</span>
+        <span>Score</span>
+        <span class="score" id="playerScore">0</span>
+      </div>
+
+      <div class="section">
+        <span>Computer</span>
+        <span>Score</span>
+        <span class="score" id="computerScore">0</span>
+      </div>
+    </div>
+    <button id="opRock" style="display: block" onclick="startGame('R')">
+      ROCK
+    </button>
+    <button id="opPaper" style="display: block" onclick="startGame('P')">
+      PAPER
+    </button>
+    <button id="opScissors" style="display: block" onclick="startGame('S')">
+      SCISSORS
+    </button>
+
+    <h3>You Picked: <span id="playerChoice"></span></h3>
+    <h3>PC Picked: <span id="computerChoice"></span></h3>
+
+    <h1 id="winRe" style="display: none">You Won!</h1>
+    <h1 id="loseRe" style="display: none">You Lost!</h1>
+    <h1 id="tieRe" style="display: none">Tie Up!</h1>
+    <button id="reStartButton" style="display: none" onclick="reStartGame()">
+      Play Again
+    </button>
+
+    <div id="gameRules" style="display: none">
+      <button id="closeRules" onclick="closeRules()">X</button>
+      <h3>GAME RULES</h3>
+      <p>------------</p>
+    </div>
+
+    <button id="showRules" onclick="showRules()">RULES</button>
+    <button
+      id="nextButton"
+      style="display: none"
+      onclick="location.href='nextPage.html'"
+    >
+      NEXT
+    </button>
+    <script src="homeCode.js"></script>
+    <script></script>
+  </body>
+</html>

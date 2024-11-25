@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(137, 193, 94);
+}
+
+#scoreDiv {
+  width: 200px;
+  height: 200px;
+  border: 0.1rem solid white; /* This gives the effect of a white margin */
+}
