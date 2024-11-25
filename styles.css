@@ -3,7 +3,8 @@ body {
 }
 
 #scoreDiv {
-  width: 200px;
-  height: 200px;
+  width: 30rem;
+  height: 5rem;
   border: 0.1rem solid white; /* This gives the effect of a white margin */
+  margin: 5rem;
 }

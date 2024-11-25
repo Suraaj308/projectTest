@@ -16,13 +16,13 @@
 
       <div class="section">
         <span>Your</span>
-        <span>Score</span>
+        <span>Score : </span>
         <span class="score" id="playerScore">0</span>
       </div>
 
       <div class="section">
         <span>Computer</span>
-        <span>Score</span>
+        <span>Score : </span>
         <span class="score" id="computerScore">0</span>
       </div>
     </div>
@@ -39,8 +39,8 @@
     <h3>You Picked: <span id="playerChoice"></span></h3>
     <h3>PC Picked: <span id="computerChoice"></span></h3>
 
-    <h1 id="winRe" style="display: none">You Won!</h1>
-    <h1 id="loseRe" style="display: none">You Lost!</h1>
+    <h1 id="winRe" style="display: none">You Win Against the PC!</h1>
+    <h1 id="loseRe" style="display: none">You Lose Against the PC!</h1>
     <h1 id="tieRe" style="display: none">Tie Up!</h1>
     <button id="reStartButton" style="display: none" onclick="reStartGame()">
       Play Again
@@ -48,11 +48,27 @@
 
     <div id="gameRules" style="display: none">
       <button id="closeRules" onclick="closeRules()">X</button>
-      <h3>GAME RULES</h3>
-      <p>------------</p>
+      <h4>GAME RULES</h4>
+      <ul>
+        <li>Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</li>
+        <li>
+          Agree ahead of time whether you'll count off
+          "rock,paper,scissors,shoot" or "rock,paper,scissors".
+        </li>
+        <li>
+          Use rock,paper,scissors to settle minor decisions or simplt pay to
+          pass time.
+        </li>
+        <li>
+          If both players lay down same hands, each player lays down another
+          hand.
+        </li>
+      </ul>
     </div>
 
-    <button id="showRules" onclick="showRules()">RULES</button>
+    <button id="showRules" style="display: block" onclick="showRules()">
+      RULES
+    </button>
     <button
       id="nextButton"
       style="display: none"
